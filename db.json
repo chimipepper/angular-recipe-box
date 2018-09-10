@@ -1,0 +1,36 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "recipeName": "Strawberry SHortcake",
+      "ingredients": [
+        "Flour",
+        "Strawberries",
+        "Sugar"
+      ]
+    },
+    {
+      "id": 2,
+      "recipeName": "Burger",
+      "ingredients": [
+        "Lettuce",
+        "Burger",
+        "Buns"
+      ]
+    },
+    {
+      "recipeName": "bhndtgfhtgd",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,10 @@
+<h1>Recipe Box</h1>
+<form #loginForm="ngForm" (ngSubmit)="addRecipe(loginForm.value)">
+Recipe Name <input  name="recipeName" [(ngModel)]="recipeName"  minlength="3" required> {{username}}
+<br>
+<br>
+<button type="submit">Add Recipe</button>
+</form>
+<br>
+<h1>Recipe List</h1>
+<p *ngFor="let recipe of recipeList|async">{{recipe.recipeName}}<br>{{recipe.ingredients}}</p>
